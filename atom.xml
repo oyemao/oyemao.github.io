@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>5ha0w部落格</title>
+  <subtitle>一只野猫</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://oyemao.cc/"/>
+  <updated>2017-08-26T11:26:52.204Z</updated>
+  <id>http://oyemao.cc/</id>
+  
+  <author>
+    <name>5ha0w</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在github上搭建hexo博客</title>
+    <link href="http://oyemao.cc/2017/08/26/%E5%9C%A8github%E4%B8%8A%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://oyemao.cc/2017/08/26/在github上搭建hexo博客/</id>
+    <published>2017-08-26T09:58:02.000Z</published>
+    <updated>2017-08-26T11:26:52.204Z</updated>
+    
+    <content type="html"><![CDATA[<hr>
+<h1 id="一、-前言"><a href="#一、-前言" class="headerlink" title="一、 前言"></a>一、 前言</h1><p>这是一篇使用GitHub Pages和Hexo搭建免费独立博客的总结。</p>
+<p>作为一个小白，按照网上的各种教程搭建hexo遇到一堆问题，对版本控制一点概念都没有，更别说使用GitHub Page能做出一个好看又好用的博客了。所以第一次的尝试失败了。</p>
+<p>这个周末总算将他给弄出来了，这次倒是顺风顺水，可能跟我刚重装了系统有关吧哈哈</p>
+<p>我所总结的是本地搭建hexo并推到GitHub Pages上并绑定独立域名的过程。</p>
+<a id="more"></a>
+<p>如果是小小白，可以先花时间去了解下：</p>
+<ul>
+<li><a href="http://git-scm.com/book/zh/v2" target="_blank" rel="external">Git</a></li>
+<li><a href="https://github.com/" target="_blank" rel="external">GitHub</a></li>
+<li><a href="https://pages.github.com/" target="_blank" rel="external">GitHub Pages</a></li>
+<li><a href="https://hexo.io/zh-cn/" target="_blank" rel="external">Hexo</a></li>
+<li><a href="http://www.appinn.com/markdown/#autoescape" target="_blank" rel="external">Markdown</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;h1 id=&quot;一、-前言&quot;&gt;&lt;a href=&quot;#一、-前言&quot; class=&quot;headerlink&quot; title=&quot;一、 前言&quot;&gt;&lt;/a&gt;一、 前言&lt;/h1&gt;&lt;p&gt;这是一篇使用GitHub Pages和Hexo搭建免费独立博客的总结。&lt;/p&gt;
+&lt;p&gt;作为一个小白，按照网上的各种教程搭建hexo遇到一堆问题，对版本控制一点概念都没有，更别说使用GitHub Page能做出一个好看又好用的博客了。所以第一次的尝试失败了。&lt;/p&gt;
+&lt;p&gt;这个周末总算将他给弄出来了，这次倒是顺风顺水，可能跟我刚重装了系统有关吧哈哈&lt;/p&gt;
+&lt;p&gt;我所总结的是本地搭建hexo并推到GitHub Pages上并绑定独立域名的过程。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="5ha0w" scheme="http://oyemao.cc/tags/5ha0w/"/>
+    
+      <category term="hexo" scheme="http://oyemao.cc/tags/hexo/"/>
+    
+      <category term="github" scheme="http://oyemao.cc/tags/github/"/>
+    
+      <category term="oyemao" scheme="http://oyemao.cc/tags/oyemao/"/>
+    
+      <category term="markdown" scheme="http://oyemao.cc/tags/markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://oyemao.cc/2017/08/26/hello-world/"/>
+    <id>http://oyemao.cc/2017/08/26/hello-world/</id>
+    <published>2017-08-26T06:23:29.447Z</published>
+    <updated>2017-08-26T06:23:29.447Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
